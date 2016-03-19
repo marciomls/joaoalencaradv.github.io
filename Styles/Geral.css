@@ -1,0 +1,122 @@
+﻿* {
+    padding: 0;
+    margin: 0;    
+}
+
+html{
+
+    min-height:100%;
+
+}
+
+h1 {
+    color:#8B4726;
+    font-family:Verdana;
+    margin:0.5em;
+    margin-bottom:1em;
+}
+
+h2 {
+    color:#8B4726;
+    font-family:Verdana;    
+}
+
+.imgGaleria {
+    border:0;
+    display:block;    
+    width:300px;  
+    height:300px;  
+}
+
+ul li {
+   float:left;   
+   width: 310px;
+   height:505px;
+   margin:5px;
+   background:#F1EDC2;
+   overflow:hidden;   
+}
+
+ul {
+    list-style: none;
+    padding: 0;    
+    width: 100%;
+    display:inline-block;    
+}
+
+
+#imgLogo {
+
+    height:5.0em;
+    width:14.0em;    
+}
+
+#imgDeusa {
+
+    height:5.0em;
+    width:5.0em;
+
+}
+
+header {
+    
+    background-image: linear-gradient(to bottom right, #CDAD00, white);
+    border-top-style: solid;
+    border-top-color: #8B7500;
+    border-top-width:1.2em;
+
+    border-bottom-style: solid;
+    border-bottom-color: #8B4726;
+
+}
+
+
+body {
+    background-color:#FAFAD2;
+}
+
+footer{
+    display:block;    
+    height:7em;
+    width:100%;    
+    margin-top:5em;
+    color:#8B4726;    
+    background-image: linear-gradient(to bottom right, #CDAD00, white);
+    border-top-style: solid;
+    border-top-color: #8B4726;
+    border-top-width:thin;
+}
+
+/*
+#pFooter{
+    position:absolute;
+    top:115em;    
+    
+    background-image: linear-gradient(to bottom right, #CDAD00, white);
+    border-top-style: solid;
+    border-top-color: #8B4726;
+    border-top-width:thin;
+    height:7em;
+    width:100%;    
+}
+*/
+
+.pGaleria {
+
+    font-style:italic;
+    color:#8B4726;
+    padding:8px;
+
+
+}
+
+.pGaleria::first-letter {
+
+    font-size:150%;
+    font-weight:bold;
+
+
+}
+
+
+
