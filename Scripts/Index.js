@@ -1,0 +1,3 @@
+﻿function Inicio() {
+    alert("Oi");
+}
